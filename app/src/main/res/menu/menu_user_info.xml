@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_item_new_post"
+        android:icon="@drawable/ic_new_post"
+        android:title="New Post"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/menu_item_favorite"
+        android:icon="@drawable/activity_feed"
+        android:title="@string/activity_favorite"
+        app:showAsAction="always"
+        />
+</menu>
